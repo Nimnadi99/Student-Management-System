@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif, arial;
+}
+body{
+    background-color: rgb(207, 207, 207);
+}
+img#logo-application {
+    width: 20%;
+    margin-top: -6px;
+}
+.header {
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: deepskyblue;
+    height: 73px;
+    width: 100%;
+    z-index: 1;
+    margin-top: -23px;
+}
+
+.header1 {
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: deepskyblue;
+    height: 73px;
+    width: 100%;
+    z-index: 1;
+    margin-top: 0px;
+}
+.header-list > ul> li {
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+
+}
+.header-list > ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+    align-items: center;
+}
+.header-list > ul> li>a {
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.c-img> img {
+    width: 100%;
+    height: 470px;
+    object-fit: cover;
+}
+p.cover-text {
+    font-family: 'Bebas Neue', cursive;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    font-size: 27px;
+    color: wheat;
+}
+.about-uni, .course-uni{
+    width: 66%;
+    display: flex;
+    margin-left: 18%;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.image-about > img{
+    width: 300px;
+}
+.about-text >p {
+    width: 619px;
+    font-size: 16px;
+    text-align: justify;
+}
+.about-text {
+    margin-left: 103px;
+}
+.col-md-4>img {
+    width: 68%;
+}
+p.one {
+    font-weight: 900;
+    font-size: 22px;
+    margin-bottom: 18px;
+}
+.teacher-image>img{
+    width: 250px;
+    height: 330px;
+    object-fit: cover;
+}
+p.our-techers, p.our-courses, p.admission-form {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 35px;
+    margin-top: 80px;
+}
+p.name-teacher, p.name-course {
+    font-size: 21px;
+    font-weight: 700;
+}
+.teachers-data {
+    display: flex;
+    width: 1200px;
+    justify-content: space-around;
+    margin: auto;
+}
+p.about-teacher {
+    width: 250px;
+    text-align: justify;
+}
+.course-image>img {
+    width: 272px;
+    height: 159px;
+    object-fit: cover;
+}
+p.about-course {
+    width: 270px;
+    text-align: justify;
+}
+p.name-course {
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: 13px;
+}
+label#name-label, label#email-label, label#phone-label, label#msg-label {
+    font-size: 17px;
+    margin-right: 52px;
+}
+input#name-input, input#email-input, input#phone-input {
+    border-radius: 14px;
+    font-size: 17px;
+    width: 61%;
+    border: 1px solid darkgray;
+    float: right;
+}
+input#msg-input {
+    border-radius: 14px;
+    font-size: 17px;
+    width: 61%;
+    border: 1px solid darkgray;
+    float: right;
+    height: 165px;
+}
+.form-item {
+    margin-bottom: 20px;
+}
+button.apply {
+    margin-top: 36%;
+    margin-left: 25%;
+    display: block;
+    width: 246px;
+    border: none;
+    padding: 6px;
+    font-size: 23px;
+    background-color: deepskyblue;
+    color: white;
+    border-radius: 11px;
+}
+
+form#text-post {
+    width: 500px;
+    margin-left: 450px;
+    border: 1px solid gray;
+    padding: 29px;
+    margin-bottom: 200px;
+}
+.text-post{
+    width: 581px;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 10px;
+    margin-bottom: 200px;
+    padding: 40px;
+    margin-left: 29%;
+}
+footer> h2 {
+    background-color: black;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+    height: 40px;
+    padding-top: 10px;
+    position: relative;
+}
+
+/*Login page design*/
+h1.login-topic {
+    text-align: center;
+    margin-top: 126px;
+    background-color: white;
+    width: 415px;
+    padding: 9px;
+    margin-left: 467px;
+    border-radius: 12px 12px 0 0;
+}
+section.Login-page {
+    background-color: cornflowerblue;
+    width: 285px;
+    height: 191px;
+    padding: 74px;
+    padding-top: 38px;
+    display: block;
+    border-radius: 0 0 12px 12px;
+    margin: auto;
+}
+label#username, label#password {
+    font-size: 19px;
+    color: aliceblue;
+    font-weight: 600;
+}
+.user {
+    margin-bottom: 50px;
+}
+input#submit-input {
+    border: none;
+    outline: none;
+    width: 140px;
+    height: 35px;
+    margin-top: 38px;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 69px;
+}
+input#username-input, input#password-input {
+    width: 102%;
+    border: none;
+    margin-left: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 3px;
+    padding-left: 10px;
+    border-radius: 6px;
+    outline: none;
+}
+.backgrnd{
+    background-size: cover;
+}
+.username-label {
+    margin-bottom: 40px;
+}
+/*Admin dashboard*/
+.header > .admin-dash {
+    color: white;
+    font-size: 21px;
+    padding-left: 14px;
+    padding-top: 25px;
+    text-decoration: none;
+}
+.logout> a.btn.btn-primary {
+    margin-right: 13px;
+    margin-top: 22px;
+}
+
+aside.admin-aside {
+    width: 13%;
+    background-color:rgb(202, 202, 209);
+    padding-left: 17px;
+    height: 100vh;
+    position: fixed;
+}
+.list-admin>li>a {
+    color: rgb(44, 43, 43);
+    font-size: 15px;
+    font-weight: 600;
+}
+.list-admin>li {
+    list-style: none;
+    margin-top: 36px;
+    margin-left: 24px;
+}
+.admin-aside>img {
+    width: 107px;
+    margin-top: 70px;
+    height: 109px;
+    margin-left: 17px;
+    position: absolute;
+}
+ul.list-admin {
+    padding-top: 175px;
+}
+.details-admin>h1 {
+    margin-left: 16%;
+    padding-top: 89px;
+}
+.cards-admin {
+    display: grid;
+    grid-template-columns: 240px 240px 240px 240px;
+    margin-left: 193px;
+}
+.card-by-card {
+    margin-left: 89px;
+    padding: 26px;
+    width: 84%;
+    margin-top: 50px;
+    font-size: 24px;
+}
+.card-by-card.card5, .card-by-card.card6, .card-by-card.card7 {
+    margin-top: 32px;
+}
+.card-by-card.card1{
+    background-color: yellow;
+}
+.card-by-card.card2{
+    background-color: green;
+}
+.card-by-card.card3{
+    background-color: blueviolet;
+}
+.card-by-card.card4{
+    background-color: orange;
+}
+.card-by-card.card5{
+    background-color: brown;
+}
+.card-by-card.card6{
+    background-color: palevioletred;
+}
+.card-by-card.card7{
+    background-color: rgb(199, 32, 32);
+}
+.table-admission {
+    width: 87%;
+    margin-left: 13%;
+    margin-top: 3%;
+}
+/*Add Student*/
+form#addStudent {
+    margin-left: 17%;
+    margin-top: 4%;
+    background-color: lightpink;
+    width: 500px;
+    padding: 20px;
+}
+.addone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 7%;
+}
+.addone>input {
+    width: 73%;
+}
+input#addbtn {
+    width: 38%;
+    margin-left: 31%;
+    margin-top: 5%;
+}
+h6.errormsg {
+    margin-left: 16%;
+    color: green;
+}
+/*Add teacher*/
+input#des {
+    height: 74px;
+}
